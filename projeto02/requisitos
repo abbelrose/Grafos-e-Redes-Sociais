@@ -1,0 +1,55 @@
+Você e sua equipe irão construir o grafo associado à sua equipe durante a aula. Se a sua equipe for fazer um país, o 
+grafo será dos estados/províncias do país em questão. Se a sua equipe for fazer um continente, o grafo será dos países 
+do continente em questão. Vamos às instruções:
+1. Encontrar uma imagem clara do mapa do país/continente a ser estudado, em que seja possível ver todos os 
+estados/províncias (se for um país), ou países (se for um continente). Essa imagem irá compor o relatório a 
+ser entregue ao final do trabalho;
+2. Construir a matriz de adjacência como um arquivo .csv. Esse arquivo deverá ser entregue ao final do trabalho. 
+Para essa atividade, sua matriz de adjacência só pode ter valores 0 ou 1;
+3. Escrever um script em R, comentado, que:
+a. Permita ler o seu arquivo .csv
+b. Associe uma matriz à tabela elaborada no arquivo .csv
+c. Plote o grafo utilizando necessariamente o comando tkplot
+d. Calcule os graus de cada vértice do seu grafo. 
+i. Faça o histograma dessa métrica
+ii. Indique o(s) vértice(s) com maior grau.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+iii. Indique o(s) vértice(s) com menor grau.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+e. Calcule as proximidades de cada vértice do seu grafo
+i. Faça o histograma dessa métrica
+ii. Indique o(s) vértice(s) com maior proximidade.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+iii. Indique o(s) vértice(s) com menor proximidade.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+f. Calcule as intermediações de cada vértice do seu grafo
+i. Faça o histograma dessa métrica
+ii. Indique o(s) vértice(s) com maior intermediação.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+iii. Indique o(s) vértice(s) com menor intermediação.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+g. Calcule as intermediações de cada aresta do seu grafo
+i. Faça o histograma dessa métrica
+ii. Indique a(s) aresta(s) com maior intermediação.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+iii. Indique a(s) aresta(s) com menor intermediação.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+h. Calcule as distâncias entre os vértices do seu grafo
+i. Faça o histograma dessa métrica
+ii. Indique o(s) vértice(s) com maior distância.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+iii. Indique o(s) vértice(s) com menor distância.
+1. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse(s)
+estado(s)/província(s)/país(es)
+i. Calcule o diâmetro do seu grafo
+i. O que você pode dizer sobre essa métrica e os aspectos socioeconômicos desse
+país/continente
